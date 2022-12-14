@@ -6,6 +6,11 @@
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-image: linear-gradient(to top right, #a410c9, #2b023d);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .navbar {
     background-color: #8a2be2;
     display: flex;
@@ -73,8 +78,7 @@
         left: 0%;
     }
 }
-main {
-    background-color: #200327;
-    height: 500px;
+#home {
+    height: 2000px;
     width: 100%;
 }
