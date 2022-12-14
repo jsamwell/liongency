@@ -12,6 +12,8 @@ body {
     background-repeat: no-repeat;
 }
 .navbar {
+    position: fixed;
+    width: 100%;
     background-color: #8a2be2;
     display: flex;
     justify-content: space-around;
