@@ -16,15 +16,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #8a2be2;
+    background-color: #892be221;
     display: flex;
     justify-content: space-around;
     align-items: center;
     line-height: 4rem;
 }
-.left h1 {
-    font-size: 2.5rem;
-    cursor: pointer;
+.left {
+    display: flex;
+    transform: scale(70%);
 }
 .checkBtn {
     display: none;
@@ -34,13 +34,14 @@ body {
 }
 .checkBtn {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     float: right;
     color: #ed1e79;
     line-height: 80px;
 }
 
 .right ul {
+    gap: 10px;
     display: flex;
     list-style: none;
 }
@@ -58,17 +59,21 @@ body {
     border-radius: 7px;
     color: #480758;
 }
-
+.right ul li a:active, .right ul li a:focus {
+    background-color: #fff;
+    border-radius: 7px;
+    color: #480758;
+}
 @media screen and (max-width: 805px) {
     .list {
         width: 100%;
         height: min-content;
-        background-color: #8a2be2;
+        background-color: #892be221;
         text-align: center;
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 4rem;
+        top: 5rem;
         left: 100%;
         transition: all 1s;
     }
