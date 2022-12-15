@@ -97,7 +97,7 @@ body {
 }
 #service {
     display: flex;
-        align-items: center;
+    align-items: center;
     justify-content: center;
     height: 550px;
     width: 100%;
