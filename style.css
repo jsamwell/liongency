@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "cano";
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -22,9 +26,8 @@ body {
     align-items: center;
     line-height: 4rem;
 }
-.left {
-    display: flex;
-    transform: scale(70%);
+.navbar img {
+    width: 200px;
 }
 .checkBtn {
     display: none;
