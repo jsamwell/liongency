@@ -5,6 +5,11 @@
     box-sizing: border-box;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    -moz-box-sizing: border-box;
+    
 }
 body {
     background-image: linear-gradient(to top right, #a410c9, #2b023d);
@@ -87,6 +92,91 @@ body {
     }
 }
 #home {
-    height: 2000px;
+    height: 550px;
     width: 100%;
+}
+#service {
+    display: flex;
+        align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+}
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    min-height: 500px;
+    width: 90%;
+}
+.produtos h1 {
+    padding: 10px;
+    text-align: center;
+}
+hr {
+    width: 70%;
+}
+.conteudo {
+    padding: 10px;
+    width: 100%;
+}
+
+.carrousel {
+    overflow-y: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.2rem;
+}
+.carrousel::-webkit-scrollbar {
+    height: 15px;
+}
+
+.carrousel::-webkit-scrollbar-track {
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.493), transparent);
+    border-radius: 20px;
+}
+
+.carrousel::-webkit-scrollbar-thumb {
+background-color: rgba(255, 255, 255, 0.514);
+border-radius: 20px;
+}
+.card {
+    margin: 20px 0px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card:nth-child(1) {
+    background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(-229deg, #88F7F9, #048FFF);
+}
+
+.card:nth-child(5) {
+    background: linear-gradient(-229deg, #0093E9, #80D0C7);
+}
+
+.card:nth-child(6) {
+    background: linear-gradient(-229deg, #cf91ff, #5782F5);
+}
+
+.card:nth-child(7) {
+    background: linear-gradient(-229deg, #642B73, #C6426E);
 }
