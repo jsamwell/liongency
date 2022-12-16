@@ -21,7 +21,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #892be221;
+    background-color: #4f1057;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -72,7 +72,7 @@ body {
     .list {
         width: 100%;
         height: min-content;
-        background-color: #892be221;
+        background-color: #4f1057;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -150,33 +150,41 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 1s;
 }
 
 
-.card:nth-child(1) {
+.card1 {
     background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
 }
 
-.card:nth-child(2) {
+.card2 {
     background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
 }
 
-.card:nth-child(3) {
+.card3 {
     background: linear-gradient(-229deg, #0cebeb, #29ffc6);
 }
 
-.card:nth-child(4) {
+.card4 {
     background: linear-gradient(-229deg, #88F7F9, #048FFF);
 }
 
-.card:nth-child(5) {
+.card5 {
     background: linear-gradient(-229deg, #0093E9, #80D0C7);
 }
 
-.card:nth-child(6) {
+.card6 {
     background: linear-gradient(-229deg, #cf91ff, #5782F5);
 }
 
-.card:nth-child(7) {
+.card7 {
     background: linear-gradient(-229deg, #642B73, #C6426E);
+}
+.card:hover {
+    transform: scale(105%);
+    transition: all 1s;
+}
+.carrousel a {
+    text-decoration: none;
 }
